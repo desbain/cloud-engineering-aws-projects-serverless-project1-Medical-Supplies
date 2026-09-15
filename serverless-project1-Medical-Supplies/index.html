@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedSupply Express</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h2>🏥 MedSupply Express</h2>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>Medical Supplies Delivered Nationwide</h1>
+
+    <p>
+        Quality healthcare equipment for hospitals,
+        clinics and home care.
+    </p>
+
+    <button>Shop Now</button>
+
+</section>
+
+<section id="products">
+
+<h2>Popular Products</h2>
+
+<div class="products">
+
+<div class="card">
+<h3>🩺 Blood Pressure Monitor</h3>
+<p>Accurate digital monitor.</p>
+</div>
+
+<div class="card">
+<h3>🦽 Wheelchair</h3>
+<p>Lightweight folding wheelchair.</p>
+</div>
+
+<div class="card">
+<h3>🩹 First Aid Kit</h3>
+<p>Complete emergency kit.</p>
+</div>
+
+<div class="card">
+<h3>🫁 Nebulizer</h3>
+<p>Portable respiratory therapy.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="order">
+
+<h2>Request Medical Supplies</h2>
+
+<form id="orderForm">
+
+<input
+type="text"
+placeholder="Full Name"
+id="customer"
+required>
+
+<input
+type="email"
+placeholder="Email"
+id="email"
+required>
+
+<select id="product">
+
+<option>Blood Pressure Monitor</option>
+<option>Wheelchair</option>
+<option>First Aid Kit</option>
+<option>Nebulizer</option>
+
+</select>
+
+<input
+type="number"
+id="quantity"
+placeholder="Quantity"
+required>
+
+<button type="submit">
+Submit Order
+</button>
+
+</form>
+
+<p id="message"></p>
+
+</section>
+
+<footer id="contact">
+
+<p>
+
+© 2026 MedSupply Express
+
+<br>
+
+Email:
+support@medsupplyexpress.com
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
