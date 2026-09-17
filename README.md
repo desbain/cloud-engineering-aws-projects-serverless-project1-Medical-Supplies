@@ -1,8 +1,16 @@
 # Serverless Medical Supplies Ordering App
 
-A serverless order-intake application: a static HTML/JS/CSS frontend lets a user submit a
-medical supply request, which flows through **API Gateway → Lambda → DynamoDB**, with the
-whole pipeline monitored live via CloudWatch and the AWS CLI.
+**Summary:** Built a full serverless order-intake application end-to-end — a frontend order
+form backed by API Gateway, Lambda, and DynamoDB — and validated the entire pipeline live by
+placing test orders while monitoring execution in CloudWatch and via the AWS CLI.
+
+## Skills demonstrated
+
+- Full-stack serverless application architecture (frontend → API Gateway → Lambda → DynamoDB)
+- Frontend-to-backend integration (JavaScript calling a deployed REST API)
+- NoSQL data modeling and writes with DynamoDB
+- Observability: CloudWatch dashboards and AWS CLI for real-time execution monitoring
+- End-to-end functional testing of a live, multi-service application
 
 ## ⚠️ Before pushing this to its own repo
 
